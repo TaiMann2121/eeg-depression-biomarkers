@@ -1,9 +1,10 @@
 from pathlib import Path
 import pandas as pd
 
-from src.load_data import load_subject, load_metadata
-from src.preprocess import preprocess_raw, epoch_raw
-from src.features import featurize_subject, dict_to_row
+from .load_data import load_subject, load_metadata
+from .preprocess import preprocess_raw, epoch_raw
+from .feature_extraction import featurize_subject, dict_to_row
+
 
 
 def build_dataset(data_dir, meta_path, epoch_len=2.0):

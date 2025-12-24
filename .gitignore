@@ -2,3 +2,12 @@ data/
 papers/
 __pycache__/
 .ipynb_checkpoints/
+.DS_Store/
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+venv/
+*.pyc
+
